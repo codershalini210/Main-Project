@@ -6,26 +6,22 @@ import Services from "./components/Services";
 import TAkinvaluefromstate from "./components/TAkinvaluefromstate";
 import Users from "./components/Users";
 import WorkingwithImages from "./components/WorkingwithImages";
+import Home from "./components/Home";
 
+import { Route,Routes } from "react-router-dom";
+import Menubar from "./components/Menubar";
 export default function App(){
   return(
-
 <>
-<All_Employees></All_Employees>
-{/* <TAkinvaluefromstate></TAkinvaluefromstate> */}
-{/* <Count></Count> */}
-  {/* <Regeg></Regeg> */}
-    {/* <Users></Users> */}
-    {/* <WorkingwithImages></WorkingwithImages> */}
-    {/* <Services></Services>
-    <h2 className="text-amber-950">
-      <div className="flex gap-10">
-<Card pname="John" age={25} ></Card>  
-<Card pname="Ron" age={15} ></Card>
-<Card pname="Maria" age={24} ></Card>
-      </div>
-      
-      </h2>       */}
+<h1>This is above routes</h1>
+<Menubar></Menubar>
+<Routes>
+  <Route path="/" element={<Home></Home>}></Route>
+    <Route path="/Count" element={<Count></Count>}></Route>
+    <Route path="/Services" element={<Services></Services>}></Route>
+    <Route path="/employees" element={<All_Employees></All_Employees>}></Route>
+</Routes>
+<h1>This is Below routes</h1>
       </> 
     
   )
