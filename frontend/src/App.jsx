@@ -1,3 +1,4 @@
+import All_Employees from "./components/All_Employees";
 import Card from "./components/Card";
 import Count from "./components/Count";
 import Regeg from "./components/Regeg";
@@ -10,7 +11,8 @@ export default function App(){
   return(
 
 <>
-<TAkinvaluefromstate></TAkinvaluefromstate>
+<All_Employees></All_Employees>
+{/* <TAkinvaluefromstate></TAkinvaluefromstate> */}
 {/* <Count></Count> */}
   {/* <Regeg></Regeg> */}
     {/* <Users></Users> */}
