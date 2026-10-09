@@ -9,8 +9,7 @@ export default function All_Employees() {
             <img src={useravatar} className='rounded-full border-4 aspect-square w-3/4' alt="" srcset="" />
             <div>{employee.name}</div>
             <div>{employee.department}</div>
-            <div onClick={()=>setSelectedEmployee(employee)}>view details</div>
-            
+            <div onClick={()=>setSelectedEmployee(employee)}>view details</div>            
         </div>
     })
   return (
@@ -19,7 +18,8 @@ export default function All_Employees() {
         {emps_ui}
         <div>
             {selectedEmployee && (
-             <Popup showpopup={true} closepopup={()=>setSelectedEmployee(null)} children={selectedEmployee}></Popup>
+             <Popup showpopup={true} closepopup={()=>setSelectedEmployee(null)} 
+             children={selectedEmployee}></Popup>
             )}
             </div>
         </div></div>

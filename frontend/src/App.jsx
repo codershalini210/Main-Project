@@ -10,6 +10,7 @@ import Home from "./components/Home";
 
 import { Route,Routes } from "react-router-dom";
 import Menubar from "./components/Menubar";
+import Service from "./components/Service";
 export default function App(){
   return(
 <>
@@ -19,6 +20,7 @@ export default function App(){
   <Route path="/" element={<Home></Home>}></Route>
     <Route path="/Count" element={<Count></Count>}></Route>
     <Route path="/Services" element={<Services></Services>}></Route>
+    <Route path="/Service/:id" element={<Service></Service>}></Route>
     <Route path="/employees" element={<All_Employees></All_Employees>}></Route>
 </Routes>
 <h1>This is Below routes</h1>

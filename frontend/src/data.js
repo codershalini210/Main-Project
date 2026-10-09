@@ -348,3 +348,110 @@ export const employees = [
         ]
     }
 ];
+
+export const services = [
+  {
+    id: 1,
+    name: "Web Development",
+    category: "Development",
+    description: "Responsive and modern websites for businesses, startups, and personal brands.",
+    price: 15000,
+    duration: "2-4 weeks",
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    available: true,
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+    features: ["Responsive Design", "SEO Friendly", "API Integration"]
+  },
+  {
+    id: 2,
+    name: "Mobile App Development",
+    category: "App Development",
+    description: "Custom Android and iOS applications with modern features and user-friendly interfaces.",
+    price: 30000,
+    duration: "4-8 weeks",
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c",
+    available: true,
+    technologies: ["React Native", "Flutter", "Kotlin", "Swift"],
+    features: ["Cross-Platform Apps", "Push Notifications", "API Integration"]
+  },
+  {
+    id: 3,
+    name: "UI/UX Design",
+    category: "Design",
+    description: "Creative user interface and user experience designs for websites and mobile applications.",
+    price: 10000,
+    duration: "1-3 weeks",
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5",
+    available: true,
+    technologies: ["Figma", "Adobe XD", "Photoshop"],
+    features: ["Wireframing", "Prototyping", "User Research"]
+  },
+  {
+    id: 4,
+    name: "Software Development",
+    category: "Development",
+    description: "Custom software solutions to automate business operations and improve productivity.",
+    price: 40000,
+    duration: "4-12 weeks",
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    available: true,
+    technologies: ["Python", "Java", "C#", "Django", "Node.js"],
+    features: ["Custom Applications", "Database Integration", "System Automation"]
+  },
+  {
+    id: 5,
+    name: "Data Analytics",
+    category: "Data & Analytics",
+    description: "Transform business data into meaningful insights using reports and interactive dashboards.",
+    price: 12000,
+    duration: "2-4 weeks",
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    available: true,
+    technologies: ["Excel", "SQL", "Python", "Power BI", "Pandas"],
+    features: ["Data Cleaning", "Interactive Dashboards", "Business Reports"]
+  },
+  {
+    id: 6,
+    name: "Cloud Computing",
+    category: "Cloud & DevOps",
+    description: "Cloud infrastructure setup, deployment, and management for scalable applications.",
+    price: 20000,
+    duration: "2-6 weeks",
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+    available: true,
+    technologies: ["AWS", "Azure", "Google Cloud", "Docker"],
+    features: ["Cloud Deployment", "Server Management", "Scalability"]
+  },
+  {
+    id: 7,
+    name: "Cybersecurity",
+    category: "Security",
+    description: "Security assessments and protection services to help safeguard applications and business data.",
+    price: 18000,
+    duration: "1-4 weeks",
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+    available: true,
+    technologies: ["Network Security", "Linux", "Security Testing"],
+    features: ["Vulnerability Assessment", "Security Audits", "Risk Reports"]
+  },
+  {
+    id: 8,
+    name: "AI & Machine Learning",
+    category: "Artificial Intelligence",
+    description: "AI-powered applications, predictive models, and intelligent automation solutions.",
+    price: 35000,
+    duration: "4-10 weeks",
+    rating: 4.9,
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+    available: true,
+    technologies: ["Python", "Machine Learning", "TensorFlow", "LLMs"],
+    features: ["Predictive Analytics", "AI Chatbots", "Workflow Automation"]
+  }
+];
