@@ -11,10 +11,12 @@ import Home from "./components/Home";
 import { Route,Routes } from "react-router-dom";
 import Menubar from "./components/Menubar";
 import Service from "./components/Service";
+import Effecteg from "./components/Effecteg";
 export default function App(){
   return(
 <>
-<h1>This is above routes</h1>
+<Effecteg></Effecteg>
+{/* <h1>This is above routes</h1>
 <Menubar></Menubar>
 <Routes>
   <Route path="/" element={<Home></Home>}></Route>
@@ -23,7 +25,7 @@ export default function App(){
     <Route path="/Service/:id" element={<Service></Service>}></Route>
     <Route path="/employees" element={<All_Employees></All_Employees>}></Route>
 </Routes>
-<h1>This is Below routes</h1>
+<h1>This is Below routes</h1> */}
       </> 
     
   )
