@@ -21,6 +21,8 @@ export default function Effecteg() {
     },[count])
   return (
     <div>Effecteg
+        
+        <input type="text"  onBlur={(e)=>setcount(e.target.value)}/>
         <p>
            Item quantity  <input type="button" className='border p-2 bg-blue-400 text-2xl' value="-" onClick={()=>setcount(count-1)} />
              {count} <input type="button" value="+" onClick={()=>setcount(count+1)} className='border p-2 bg-blue-400 text-2xl'/>
