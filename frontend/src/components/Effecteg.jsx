@@ -1,3 +1,13 @@
+// Task 2: Student Marks Calculator
+// Concept: Multiple state variables and dependencies.
+// Create a component named StudentMarks.
+// Requirements:
+// - Create three states: maths, science, and total.
+// - Set Maths marks to 70 and Science marks to 80.
+// - Add buttons to increase or decrease each subject's marks.
+// - Use useEffect() to calculate the total marks.
+// - The total should update whenever either subject's marks change.
+// - Display the total and percentage out of 200.
 import React, { useEffect, useState } from 'react'
 
 export default function Effecteg() {
