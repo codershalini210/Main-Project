@@ -12,10 +12,12 @@ import { Route,Routes } from "react-router-dom";
 import Menubar from "./components/Menubar";
 import Service from "./components/Service";
 import Effecteg from "./components/Effecteg";
+import Taskmain from "./components/Taskmain";
 export default function App(){
   return(
 <>
-<Effecteg></Effecteg>
+<Taskmain></Taskmain>
+{/* <Effecteg></Effecteg> */}
 {/* <h1>This is above routes</h1>
 <Menubar></Menubar>
 <Routes>
