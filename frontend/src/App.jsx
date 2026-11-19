@@ -13,10 +13,12 @@ import Menubar from "./components/Menubar";
 import Service from "./components/Service";
 import Effecteg from "./components/Effecteg";
 import Taskmain from "./components/Taskmain";
+import Contexthome from "./components/contextcomponents/Contexthome";
 export default function App(){
   return(
 <>
-<Taskmain></Taskmain>
+<Contexthome></Contexthome>
+{/* <Taskmain></Taskmain> */}
 {/* <Effecteg></Effecteg> */}
 {/* <h1>This is above routes</h1>
 <Menubar></Menubar>
